@@ -1,0 +1,73 @@
+body{
+    margin: 1px;
+    padding: 1px;
+}
+
+.container{
+    gap: 3px;
+    display: grid;
+    grid-template-columns: 150px 100px 100px 100px;
+    grid-template-rows: 0.5px 100px 100px 82px 82px 82px 82px;
+    padding: auto;
+}
+
+.container div{
+    padding: 10px;
+    border: 3px solid #000;
+}
+
+.header{
+    grid-column: span 4;
+    grid-row: span 2;
+}
+
+.nav{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.title{
+    grid-column: span 7;
+}
+
+.side{
+    grid-column: span 3;
+    grid-row: span 2;
+}
+
+.side .avatar{
+    border-radius: 100%;
+}
+.meta{
+    grid-column: span 2;
+    grid-row: span 5;
+}
+
+.meta li{
+    
+}
+
+.content{
+    grid-column: span 5;
+    grid-row: span 2;
+}
+
+.ads{
+    grid-column: span 3;
+    grid-row: span 2;
+}
+
+.img{
+    grid-column: span 5;
+    grid-row: span 3;
+}
+
+.stuff{
+    grid-column: span 3;
+    grid-row: span 2;
+}
+
+.footer{
+    grid-column: span 10;
+    grid-row: span 2;
+}
